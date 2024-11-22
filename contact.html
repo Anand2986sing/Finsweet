@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#111111">
+        <title>Finsweet</title>
+        <link rel="preload" href="fonts/InterMedium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/InterRegular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/InterSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/InterBlack.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/Sen-Bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer="defer" src="javaScript/script.js"></script>
+    </head>
+    <body class="page__body">
+        <div class="site-container">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="header__left">
+                        <a href="index.html" class="header__logo">
+                            <img src="assets/img/Logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__right">
+                        <nav class="header__nav nav" title="navigation menu">
+                            <ul class="nav__list list-reset menu">
+                                <li class="nav__item menu__item">
+                                    <a href="index.html" class="nav__link menu__item-link" data-scroll data-name="Home">Home</a>
+                                </li>
+                                <li class="nav__item menu__item">
+                                    <a href="blog-page.html" class="nav__link menu__item-link" data-scroll data-name="Blog">Blog</a>
+                                </li>
+                                <li class="nav__item menu__item">
+                                    <a href="about-page.html" class="nav__link menu__item-link" data-scroll data-name="About us">About us</a>
+                                </li>
+                                <li class="nav__item menu__item">
+                                    <a href="contact.html" class="nav__link menu__item-link" data-scroll data-name="Contact us">Contact us</a>
+                                </li>
+                            </ul>
+                            <div class="burger">
+                                <span></span>
+                            </div>
+                        </nav>
+                        <a href="#subscribe" class="header__link">Subscribe</a>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="contact-form">
+                    <div class="contact-form__container container">
+                        <div class="contact-form__wrapper">
+                            <div class="contact-form__top">
+                                <h3 class="contact-form__subtitle">Contact us</h3>
+                                <h1 class="contact-form__title title">Let’s Start a Conversation</h1>
+                                <p class="contact-form__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                            </div>
+                            <div class="contact-form__middle">
+                                <div class="contact-form__left">
+                                    <h5 class="contact-form__subtext">Working hours</h5>
+                                    <span class="contact-form__dedicated">Monday To Friday</span>
+                                    <span class="contact-form__dedicated">9:00 AM to 8:00 PM </span>
+                                    <span class="contact-form__text">Our Support Team is available 24/7</span>
+                                </div>
+                                <div class="contact-form__right">
+                                    <h5 class="contact-form__subtext">Contact</h5>
+                                    <a href="tel:02079932905">
+                                        <span class="contact-form__dedicated">020 7993 2905</span>
+                                    </a>
+                                    <a href="mailto:hello@finsweet.com" class="contact-form__text">
+                                        <span>hello@finsweet.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-form__bottom">
+                                <form action="" class="contact-form__form form">
+                                    <div class="form__field form__name">
+                                        <input class="form__input form__input--name" type="text" placeholder=" " name="name" required autocomplete="off">
+                                        <label for="name" class="form__label form__label--name">
+                                            <span class="form__span form__span--name">Full Name</span>
+                                        </label>
+                                    </div>
+                                    <div class="form__field form__mail">
+                                        <input class="form__input form__input--mail" type="mail" placeholder=" " name="mail" required autocomplete="off">
+                                        <label for="mail" class="form__label form__label--mail">
+                                            <span class="form__span form__span--mail">Your Email</span>
+                                        </label>
+                                    </div>
+                                    <div class="form__field form__dropdown">
+                                        <select class="form__input form__select" name="menu" id="meun-items">
+                                            <option class="form__option form__option--disabled" disabled="disabled" selected="selected">Query Related</option>
+                                            <option class="form__option" value="html">HTML</option>
+                                            <option class="form__option" value="css">CSS</option>
+                                            <option class="form__option" value="js">JAVASCRIPT</option>
+                                            <option class="form__option" value="c">VUE.js</option>
+                                        </select>
+                                    </div>
+                                    <div class="form__field form__textarea">
+                                        <textarea class="form__input form__input--textarea" type="text" placeholder=" " name="textarea" required rows="4" cols="50" autocomplete="off"></textarea>
+                                        <label for="textarea" class="form__label form__label--textarea">
+                                            <span class="form__span form__span--textarea">Message</span>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="form__btn btn-reset btn">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__header">
+                        <div class="footer__left">
+                            <a href="#" class="footer__logo">
+                                <img src="assets/img/Logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="footer__right">
+                            <nav class="footer__nav nav" title="footer navigation menu">
+                                <ul class="nav__list list-reset">
+                                    <li class="nav__item">
+                                        <a href="index.html" class="nav__link" data-name="Home">Home</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="blog-page.html" class="nav__link" data-name="Blog">Blog</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="about-page.html" class="nav__link" data-name="About us">About us</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="contact.html" class="nav__link" data-name="Contact us">Contact us</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="privacy.html" class="nav__link" data-name="Privacy Policy">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="footer__middle">
+                        <h2 class="footer__title title">Subscribe to our news letter to get latest updates and news</h2>
+                        <form class="footer__subscribe" id="subscribe">
+                            <input type="email" class="footer__input" required placeholder="Enter Your Email">
+                            <button class="footer__btn btn btn-reset" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__bottom-left">
+                            <span class="footer__address">Finstreet 118 2561 Fintown</span>
+                            <span class="footer__contacts">
+                                <a href="#">Hello@finsweet.com </a>
+                                020 7993 2905
+                            </span>
+                        </div>
+                        <div class="footer__bottom-right">
+                            <div class="footer__social">
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative.svg" alt="facebook link">
+                                </a>
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative (4).svg" alt="twitter link">
+                                </a>
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative (2).svg" alt="instagram link">
+                                </a>
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative (3).svg" alt="linkedin link">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

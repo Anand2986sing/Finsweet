@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#111111">
+        <title>Finsweet</title>
+        <link rel="preload" href="fonts/InterMedium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/InterRegular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/InterSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/InterBlack.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/Sen-Bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer="defer" src="javaScript/script.js"></script>
+    </head>
+    <body class="page__body">
+        <div class="site-container">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="header__left">
+                        <a href="index.html" class="header__logo">
+                            <img src="assets/img/Logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__right">
+                        <nav class="header__nav nav" title="navigation menu">
+                            <ul class="nav__list list-reset menu">
+                                <li class="nav__item menu__item">
+                                    <a href="index.html" class="nav__link menu__item-link" data-scroll data-name="Home">Home</a>
+                                </li>
+                                <li class="nav__item menu__item">
+                                    <a href="blog-page.html" class="nav__link menu__item-link" data-scroll data-name="Blog">Blog</a>
+                                </li>
+                                <li class="nav__item menu__item">
+                                    <a href="about-page.html" class="nav__link menu__item-link" data-scroll data-name="About us">About us</a>
+                                </li>
+                                <li class="nav__item menu__item">
+                                    <a href="contact.html" class="nav__link menu__item-link" data-scroll data-name="Contact us">Contact us</a>
+                                </li>
+                            </ul>
+                            <div class="burger">
+                                <span></span>
+                            </div>
+                        </nav>
+                        <a href="#subscribe" class="header__link">Subscribe</a>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="blog-hero">
+                    <div class="blog-hero__container container">
+                        <div class="blog-hero__wrapper">
+                            <span class="blog-hero__subtitle">Featured Post</span>
+                            <h1 class="blog-hero__title title">Step-by-step guide to choosing great font pairs</h1>
+                            <span class="blog-hero__quote">
+                                By <cite class="blog-hero__author">John Doe</cite>
+                                <time datetime="2022-05-23">May 23, 2022</time>
+                            </span>
+                            <p class="blog-hero__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                            <a href="#" class="blog-hero__btn btn-reset btn">Read More ></a>
+                        </div>
+                        <div class="blog-hero__img">
+                            <picture>
+                                <source srcset="assets/img/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.svg" type="image/webp">
+                                <img loading="lazy" src="assets/img/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.svg" class="image" width="" height="" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </section>
+                <section class="blog-posts">
+                    <div class="blog-posts__container container">
+                        <h2 class="blog-posts__title title">All posts</h2>
+                        <div class="blog-posts__wrapper">
+                            <!-- Slider main container -->
+                            <div class="blog-posts__swiper swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/two-women-in-front-of-dry-erase-board-1181533.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/two-women-in-front-of-dry-erase-board-1181533.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">Startup</a>
+                                                <h3 class="blog-posts__subtitle">Design tips for designers that cover everything you need</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-doing-handshakes-3183197.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-doing-handshakes-3183197.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="buisness-page.html" class="blog-posts__category">BUSINESS</a>
+                                                <h3 class="blog-posts__subtitle">How to build rapport with your web design clients</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-woman-looking-at-man-3183173.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-woman-looking-at-man-3183173.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">Startup</a>
+                                                <h3 class="blog-posts__subtitle">Logo design trends to avoid in 2022</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-walking-on-hallway-3182811.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-walking-on-hallway-3182811.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">TECHNOLOGY</a>
+                                                <h3 class="blog-posts__subtitle">8 Figma design systems you can download for free today</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-walking-on-hallway-3182811.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-walking-on-hallway-3182811.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">ECONOMY</a>
+                                                <h3 class="blog-posts__subtitle">Font sizes in UI design: The complete guide to follow</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/two-women-in-front-of-dry-erase-board-1181533.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/two-women-in-front-of-dry-erase-board-1181533.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">Startup</a>
+                                                <h3 class="blog-posts__subtitle">Design tips for designers that cover everything you need</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-doing-handshakes-3183197.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-doing-handshakes-3183197.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="buisness-page.html" class="blog-posts__category">BUSINESS</a>
+                                                <h3 class="blog-posts__subtitle">How to build rapport with your web design clients</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-woman-looking-at-man-3183173.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-woman-looking-at-man-3183173.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">Startup</a>
+                                                <h3 class="blog-posts__subtitle">Logo design trends to avoid in 2022</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-walking-on-hallway-3182811.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-walking-on-hallway-3182811.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">TECHNOLOGY</a>
+                                                <h3 class="blog-posts__subtitle">8 Figma design systems you can download for free today</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-walking-on-hallway-3182811.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-walking-on-hallway-3182811.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">ECONOMY</a>
+                                                <h3 class="blog-posts__subtitle">Font sizes in UI design: The complete guide to follow</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/two-women-in-front-of-dry-erase-board-1181533.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/two-women-in-front-of-dry-erase-board-1181533.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">Startup</a>
+                                                <h3 class="blog-posts__subtitle">Design tips for designers that cover everything you need</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-doing-handshakes-3183197.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-doing-handshakes-3183197.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="buisness-page.html" class="blog-posts__category">BUSINESS</a>
+                                                <h3 class="blog-posts__subtitle">How to build rapport with your web design clients</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-woman-looking-at-man-3183173.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-woman-looking-at-man-3183173.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">Startup</a>
+                                                <h3 class="blog-posts__subtitle">Logo design trends to avoid in 2022</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-walking-on-hallway-3182811.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-walking-on-hallway-3182811.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">TECHNOLOGY</a>
+                                                <h3 class="blog-posts__subtitle">8 Figma design systems you can download for free today</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                        <div class="blog-posts__block">
+                                            <div class="blog-posts__img">
+                                                <picture>
+                                                    <source srcset="assets/img/photo-of-people-walking-on-hallway-3182811.svg" type="image/webp">
+                                                    <img loading="lazy" src="assets/img/photo-of-people-walking-on-hallway-3182811.svg" class="image" width="" height="" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="blog-posts__content">
+                                                <a href="#" class="blog-posts__category">ECONOMY</a>
+                                                <h3 class="blog-posts__subtitle">Font sizes in UI design: The complete guide to follow</h3>
+                                                <p class="blog-posts__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- If we need navigation buttons -->
+                                <div class="blog-posts__swiper-btns">
+                                    <div class="blog-posts__swiper-button-prev">&lt;Prev</div>
+                                    <div class="blog-posts__swiper-button-next">Next &gt;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="blog-category category">
+                    <div class="category__container container">
+                        <h2 class="category__title title">All Catagories</h2>
+                        <div class="category__wrapper">
+                            <a href="buisness-page.html" class="category__link">
+                                <aside class="category__card card">
+                                    <div class="card__icon">
+                                        <img src="assets/icon/Icon-1.svg" alt="Business category icon">
+                                    </div>
+                                    <h4 class="card__title">Business</h4>
+                                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </aside>
+                            </a>
+                            <a href="#" class="category__link">
+                                <aside class="category__card card">
+                                    <div class="card__icon">
+                                        <img src="assets/icon/Negative (2).svg" alt="Startup category icon">
+                                    </div>
+                                    <h4 class="card__title">Startup</h4>
+                                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </aside>
+                            </a>
+                            <a href="#" class="category__link">
+                                <aside class="category__card card">
+                                    <div class="card__icon">
+                                        <img src="assets/icon/icon.svg" alt="Economy category icon">
+                                    </div>
+                                    <h4 class="card__title">Economy</h4>
+                                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </aside>
+                            </a>
+                            <a href="#" class="category__link">
+                                <aside class="category__card card">
+                                    <div class="card__icon">
+                                        <img src="assets/icon/business-and-trade 1.svg" alt="Technology category icon">
+                                    </div>
+                                    <h4 class="card__title">Technology</h4>
+                                    <p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </aside>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="join">
+                    <div class="join__container container">
+                        <h2 class="join__title title">Join our team to be a part of our story</h2>
+                        <p class="join__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <div class="join__btn-div">
+                            <a href="#" class="join__btn btn-reset btn">Join Now</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__header">
+                        <div class="footer__left">
+                            <a href="#" class="footer__logo">
+                                <img src="assets/img/Logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="footer__right">
+                            <nav class="footer__nav nav" title="footer navigation menu">
+                                <ul class="nav__list list-reset">
+                                    <li class="nav__item">
+                                        <a href="index.html" class="nav__link" data-name="Home">Home</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="blog-page.html" class="nav__link" data-name="Blog">Blog</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="about-page.html" class="nav__link" data-name="About us">About us</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="contact.html" class="nav__link" data-name="Contact us">Contact us</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="privacy.html" class="nav__link" data-name="Privacy Policy">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="footer__middle">
+                        <h2 class="footer__title title">Subscribe to our news letter to get latest updates and news</h2>
+                        <form class="footer__subscribe" id="subscribe">
+                            <input type="email" class="footer__input" required placeholder="Enter Your Email">
+                            <button class="footer__btn btn btn-reset" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__bottom-left">
+                            <span class="footer__address">Finstreet 118 2561 Fintown</span>
+                            <span class="footer__contacts">
+                                <a href="#">Hello@finsweet.com </a>
+                                020 7993 2905
+                            </span>
+                        </div>
+                        <div class="footer__bottom-right">
+                            <div class="footer__social">
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative.svg" alt="facebook link">
+                                </a>
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative (4).svg" alt="twitter link">
+                                </a>
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative (2).svg" alt="instagram link">
+                                </a>
+                                <a class="footer__link" href="#">
+                                    <img src="assets/icon/Negative (3).svg" alt="linkedin link">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
